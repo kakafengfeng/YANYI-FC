@@ -8,8 +8,8 @@ const AboutSection: React.FC = () => {
         {/* Intro */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-20">
           <div>
-            <h4 className="text-club-red font-bold uppercase tracking-widest mb-2">始于 1892</h4>
-            <h2 className="text-4xl md:text-5xl font-black uppercase mb-6 leading-tight">我们是 <br/> 伦敦之傲</h2>
+            <h4 className="text-club-red font-bold uppercase tracking-widest mb-2">始于 1995</h4>
+            <h2 className="text-4xl md:text-5xl font-black uppercase mb-6 leading-tight">我们是 <br/> 奉贤之傲</h2>
             <p className="text-gray-300 text-lg mb-6 leading-relaxed">
               从简陋的业余起点到征服上海的豪门。岩意足球俱乐部代表的不仅仅是一场比赛；我们代表着一个社区，一种精神，以及坚定不移的求胜意志。我们的使命很简单：培养天才，娱乐世界，捧起奖杯。
             </p>
