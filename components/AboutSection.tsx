@@ -59,7 +59,7 @@ const AboutSection: React.FC = () => {
         <div className="bg-white rounded-lg overflow-hidden shadow-2xl flex flex-col md:flex-row">
           <div className="p-8 md:w-1/3 text-club-navy">
              <h3 className="text-2xl font-bold uppercase mb-4 flex items-center gap-2"><MapPin className="text-club-red"/> 塘外竞技场</h3>
-             <p className="mb-4">123 Victory Lane, London, UK.</p>
+             <p className="mb-4">123 ZHUDUN ROAD, FENGXIAN, SHANGHAI.</p>
              <p className="mb-4 text-sm text-gray-600">每个比赛日，与60,000名球迷一起捍卫我们的堡垒。可通过自行车、电瓶车和徒步轻松抵达。</p>
              <button className="bg-club-navy text-white px-6 py-2 uppercase font-bold text-sm hover:bg-club-red transition w-full">获取路线</button>
           </div>
