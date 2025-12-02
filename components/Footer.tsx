@@ -16,7 +16,7 @@ const Footer: React.FC = () => {
              </div>
              <p className="text-gray-400 text-sm leading-relaxed">
                岩意足球俱乐部官方网站。
-               加入狮群，感受咆哮。
+               加入塘外，感受咆哮。
              </p>
           </div>
 
