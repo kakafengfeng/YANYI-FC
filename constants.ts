@@ -133,8 +133,8 @@ export const MATCHES: Match[] = [
 ];
 
 export const PRODUCTS: Product[] = [
-  { id: 1, name: "23/24 主场球衣", price: "£80.00", category: "球衣", image: "https://picsum.photos/id/1080/300/300" },
-  { id: 2, name: "23/24 客场球衣", price: "£80.00", category: "球衣", image: "https://picsum.photos/id/1081/300/300" },
-  { id: 3, name: "训练上衣", price: "£45.00", category: "训练装备", image: "https://picsum.photos/id/1082/300/300" },
-  { id: 4, name: "官方围巾", price: "£20.00", category: "配饰", image: "https://picsum.photos/id/1083/300/300" },
+  { id: 1, name: "25/26 主场球衣", price: "¥800.00", category: "球衣", image: "https://picsum.photos/id/1080/300/300" },
+  { id: 2, name: "25/26 客场球衣", price: "¥800.00", category: "球衣", image: "https://picsum.photos/id/1081/300/300" },
+  { id: 3, name: "训练上衣", price: "¥45.00", category: "训练装备", image: "https://picsum.photos/id/1082/300/300" },
+  { id: 4, name: "官方围巾", price: "¥20.00", category: "配饰", image: "https://picsum.photos/id/1083/300/300" },
 ];
