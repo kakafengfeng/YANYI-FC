@@ -111,7 +111,7 @@ export const NEWS: NewsItem[] = [
   {
     id: 2,
     title: "新球场扩建计划公布",
-    summary: "狮子竞技场的扩建项目已正式获得市议会批准。",
+    summary: "塘外竞技场的扩建项目已正式获得村委会批准。",
     date: "2023年10月20日",
     author: "萨拉·康纳",
     image: "https://picsum.photos/id/1047/600/400"
