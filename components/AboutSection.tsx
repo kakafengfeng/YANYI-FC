@@ -41,7 +41,7 @@ const AboutSection: React.FC = () => {
           <h3 className="text-2xl font-bold uppercase mb-8 text-center">历史时刻</h3>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
              {[
-               { year: '2012', title: '俱乐部成立', desc: '由当地工人创立。' },
+               { year: '2012', title: '俱乐部成立', desc: '由当地球员创立。' },
                { year: '2015', title: '首冠荣耀', desc: '首次获得顶级联赛冠军。' },
                { year: '2017', title: '奉贤之巅', desc: '戏剧性地赢得了奉超冠军。' },
                { year: '2023', title: '新纪元', desc: '世界级青训学院正式启用。' },
