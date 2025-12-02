@@ -20,6 +20,20 @@
             },
             backgroundImage: {
               'hero-pattern': "linear-gradient(to right bottom, rgba(0, 31, 63, 0.9), rgba(0, 0, 0, 0.8)), url('https://picsum.photos/id/1055/1920/1080')",
+            },
+            animation: {
+              'fade-in-up': 'fadeInUp 1s ease-out forwards',
+              'subtle-zoom': 'subtleZoom 20s ease-in-out infinite alternate',
+            },
+            keyframes: {
+              fadeInUp: {
+                '0%': { opacity: '0', transform: 'translateY(20px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              },
+              subtleZoom: {
+                '0%': { transform: 'scale(1)' },
+                '100%': { transform: 'scale(1.1)' },
+              }
             }
           }
         }
@@ -55,6 +69,5 @@
 </head>
   <body class="bg-gray-50 text-gray-900 font-sans antialiased overflow-x-hidden">
     <div id="root"></div>
-    <script type="module" src="/index.tsx"></script>
   </body>
 </html>

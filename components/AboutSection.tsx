@@ -8,16 +8,16 @@ const AboutSection: React.FC = () => {
         {/* Intro */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-20">
           <div>
-            <h4 className="text-club-red font-bold uppercase tracking-widest mb-2">始于 1995</h4>
-            <h2 className="text-4xl md:text-5xl font-black uppercase mb-6 leading-tight">我们是 <br/> 奉贤之傲</h2>
+            <h4 className="text-club-red font-bold uppercase tracking-widest mb-2">始于 1892</h4>
+            <h2 className="text-4xl md:text-5xl font-black uppercase mb-6 leading-tight">我们是 <br/> 伦敦之傲</h2>
             <p className="text-gray-300 text-lg mb-6 leading-relaxed">
-              从简陋的业余起点到征服上海的豪门。岩意足球俱乐部代表的不仅仅是一场比赛；我们代表着一个社区，一种精神，以及坚定不移的求胜意志。我们的使命很简单：培养天才，娱乐世界，捧起奖杯。
+              从简陋的业余起点到征服欧洲的豪门。岩意足球俱乐部代表的不仅仅是一场比赛；我们代表着一个社区，一种精神，以及坚定不移的求胜意志。我们的使命很简单：培养天才，娱乐世界，捧起奖杯。
             </p>
             <div className="grid grid-cols-2 gap-6 mt-8">
               <div className="bg-white/10 p-4 rounded backdrop-blur-sm border-l-4 border-club-red">
                 <Trophy className="text-club-gold mb-2" size={32} />
                 <h4 className="font-bold text-2xl">5</h4>
-                <p className="text-xs uppercase tracking-wide text-gray-400">奉超冠军</p>
+                <p className="text-xs uppercase tracking-wide text-gray-400">英超冠军</p>
               </div>
               <div className="bg-white/10 p-4 rounded backdrop-blur-sm border-l-4 border-club-red">
                 <Users className="text-club-gold mb-2" size={32} />
@@ -41,9 +41,9 @@ const AboutSection: React.FC = () => {
           <h3 className="text-2xl font-bold uppercase mb-8 text-center">历史时刻</h3>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
              {[
-               { year: '2012', title: '俱乐部成立', desc: '由当地球员创立。' },
-               { year: '2015', title: '首冠荣耀', desc: '首次获得顶级联赛冠军。' },
-               { year: '2017', title: '奉贤之巅', desc: '戏剧性地赢得了奉超冠军。' },
+               { year: '1892', title: '俱乐部成立', desc: '由当地工人创立。' },
+               { year: '1955', title: '首冠荣耀', desc: '首次获得顶级联赛冠军。' },
+               { year: '2012', title: '欧洲之巅', desc: '戏剧性地赢得了欧冠冠军。' },
                { year: '2023', title: '新纪元', desc: '世界级青训学院正式启用。' },
              ].map((item, idx) => (
                <div key={idx} className="bg-white/5 p-6 rounded hover:bg-white/10 transition cursor-pointer group">
@@ -58,9 +58,9 @@ const AboutSection: React.FC = () => {
         {/* Map Location */}
         <div className="bg-white rounded-lg overflow-hidden shadow-2xl flex flex-col md:flex-row">
           <div className="p-8 md:w-1/3 text-club-navy">
-             <h3 className="text-2xl font-bold uppercase mb-4 flex items-center gap-2"><MapPin className="text-club-red"/> 塘外竞技场</h3>
-             <p className="mb-4">123 ZHUDUN ROAD, FENGXIAN, SHANGHAI.</p>
-             <p className="mb-4 text-sm text-gray-600">每个比赛日，与60,000名球迷一起捍卫我们的堡垒。可通过自行车、电瓶车和徒步轻松抵达。</p>
+             <h3 className="text-2xl font-bold uppercase mb-4 flex items-center gap-2"><MapPin className="text-club-red"/> 狮子竞技场</h3>
+             <p className="mb-4">123 Victory Lane, London, UK.</p>
+             <p className="mb-4 text-sm text-gray-600">每个比赛日，与60,000名球迷一起捍卫我们的堡垒。可通过地铁、公交和火车轻松抵达。</p>
              <button className="bg-club-navy text-white px-6 py-2 uppercase font-bold text-sm hover:bg-club-red transition w-full">获取路线</button>
           </div>
           <div className="md:w-2/3 h-64 md:h-auto bg-gray-200 relative">
