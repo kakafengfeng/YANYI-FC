@@ -12,13 +12,13 @@ const Hero: React.FC = () => {
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-6 text-center md:text-left">
-        <h2 className="text-club-red font-bold tracking-[0.2em] uppercase mb-4 animate-fade-in-up">欢迎加入荣耀狮群</h2>
+        <h2 className="text-club-red font-bold tracking-[0.2em] uppercase mb-4 animate-fade-in-up">欢迎加入荣耀塘外</h2>
         <h1 className="text-5xl md:text-8xl font-black text-white mb-6 uppercase leading-tight animate-fade-in-up delay-100">
           咆哮 <br />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-400">致胜</span>
         </h1>
         <p className="text-gray-300 text-lg md:text-xl max-w-lg mb-10 animate-fade-in-up delay-200">
-          不仅仅是一家俱乐部。这是一段建立在激情、坚韧和荣耀之上的传奇。加入我们，就在狮子竞技场。
+          不仅仅是一家俱乐部。这是一段建立在激情、坚韧和荣耀之上的传奇。加入我们，就在塘外竞技场。
         </p>
         
         <div className="flex flex-col md:flex-row gap-4 animate-fade-in-up delay-300">
