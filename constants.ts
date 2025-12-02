@@ -63,7 +63,7 @@ export const PLAYERS: Player[] = [
   },
   {
     id: 6,
-    name: "小螃蟹",
+    name: "瓜贝尔",
     position: "中场",
     number: 8,
     nationality: "中国",
