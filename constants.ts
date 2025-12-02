@@ -3,10 +3,10 @@ import { Player, Match, Product, NewsItem } from './types';
 export const PLAYERS: Player[] = [
   {
     id: 1,
-    name: "亚历克斯·斯特林",
+    name: "亨利大帝",
     position: "前锋",
     number: 9,
-    nationality: "英格兰",
+    nationality: "中国",
     image: "https://picsum.photos/id/1005/400/500",
     bio: "队长。进球机器。进攻线的核心灵魂。",
     stats: [
@@ -15,10 +15,10 @@ export const PLAYERS: Player[] = [
   },
   {
     id: 2,
-    name: "马特奥·席尔瓦",
+    name: "卡卡帕",
     position: "中场",
     number: 10,
-    nationality: "葡萄牙",
+    nationality: "中国",
     image: "https://picsum.photos/id/1012/400/500",
     bio: "中场建筑师。精准的传球大师。",
     stats: [
@@ -27,10 +27,10 @@ export const PLAYERS: Player[] = [
   },
   {
     id: 3,
-    name: "大卫·洛克",
+    name: "黑猩",
     position: "后卫",
     number: 4,
-    nationality: "苏格兰",
+    nationality: "中国",
     image: "https://picsum.photos/id/1025/400/500",
     bio: "后防铁闸。无法逾越的空中霸主。",
     stats: [
@@ -39,10 +39,10 @@ export const PLAYERS: Player[] = [
   },
   {
     id: 4,
-    name: "雨果·波斯",
+    name: "莫德里.达",
     position: "门将",
     number: 1,
-    nationality: "法国",
+    nationality: "中国",
     image: "https://picsum.photos/id/1003/400/500",
     bio: "沉默的守护者。拥有猫一般的反应速度。",
     stats: [
@@ -51,10 +51,10 @@ export const PLAYERS: Player[] = [
   },
   {
     id: 5,
-    name: "田中健二",
+    name: "猪猡巴",
     position: "前锋",
     number: 11,
-    nationality: "日本",
+    nationality: "中国",
     image: "https://picsum.photos/id/1006/400/500",
     bio: "边路速度恶魔。",
     stats: [
@@ -63,10 +63,10 @@ export const PLAYERS: Player[] = [
   },
   {
     id: 6,
-    name: "卡洛斯·罗德里格斯",
+    name: "小螃蟹",
     position: "中场",
     number: 8,
-    nationality: "西班牙",
+    nationality: "中国",
     image: "https://picsum.photos/id/1001/400/500",
     bio: "全能型中场引擎（B2B）。",
     stats: [
@@ -75,10 +75,10 @@ export const PLAYERS: Player[] = [
   },
     {
     id: 7,
-    name: "塞缪尔·奥乔",
+    name: "蛤蟆",
     position: "后卫",
     number: 3,
-    nationality: "尼日利亚",
+    nationality: "中国",
     image: "https://picsum.photos/id/1027/400/500",
     bio: "边路充满力量与速度。",
     stats: [
@@ -87,10 +87,10 @@ export const PLAYERS: Player[] = [
   },
   {
     id: 8,
-    name: "埃里克·延森",
+    name: "蜡烛",
     position: "中场",
     number: 6,
-    nationality: "丹麦",
+    nationality: "中国",
     image: "https://picsum.photos/id/1004/400/500",
     bio: "防守型中场核心。",
     stats: [
@@ -103,8 +103,8 @@ export const NEWS: NewsItem[] = [
   {
     id: 1,
     title: "德比大战告捷！",
-    summary: "凭借斯特林的精彩帽子戏法，岩意FC以 3-0 战胜同城死敌。",
-    date: "2023年10月24日",
+    summary: "凭借亨利大帝的精彩帽子戏法，岩意FC以 3-0 战胜同城死敌。",
+    date: "2025年10月24日",
     author: "詹姆斯·史密斯",
     image: "https://picsum.photos/id/1055/600/400"
   },
@@ -120,16 +120,16 @@ export const NEWS: NewsItem[] = [
     id: 3,
     title: "青训学院毕业季",
     summary: "三位潜力无限的新星正式晋升至一线队阵容。",
-    date: "2023年10月15日",
+    date: "2025年10月15日",
     author: "迈克·罗斯",
     image: "https://picsum.photos/id/1060/600/400"
   }
 ];
 
 export const MATCHES: Match[] = [
-  { id: 1, opponent: "曼彻斯特红魔", date: "11月04日", time: "20:00", venue: "主场", price: "£45" },
-  { id: 2, opponent: "伦敦蓝军", date: "11月11日", time: "15:00", venue: "客场", price: "£55" },
-  { id: 3, opponent: "利物浦红军", date: "11月25日", time: "17:30", venue: "主场", price: "£60" },
+  { id: 1, opponent: "四团", date: "12月04日", time: "20:00", venue: "主场", price: "£45" },
+  { id: 2, opponent: "奉城", date: "12月11日", time: "15:00", venue: "客场", price: "£55" },
+  { id: 3, opponent: "南桥", date: "12月25日", time: "17:30", venue: "主场", price: "£60" },
 ];
 
 export const PRODUCTS: Product[] = [
