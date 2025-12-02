@@ -8,7 +8,7 @@ export const PLAYERS: Player[] = [
     number: 9,
     nationality: "三角洋",
     image: "https://picsum.photos/id/1005/400/500",
-    bio: "队长。进球机器。进攻线的核心灵魂。",
+    bio: "进球机器。进攻线的核心灵魂。",
     stats: [
       { goals: 22, assists: 8, matches: 30, minutes: 2700 }
     ]
@@ -104,7 +104,7 @@ export const NEWS: NewsItem[] = [
     id: 1,
     title: "德比大战告捷！",
     summary: "凭借亨利大帝的精彩帽子戏法，岩意FC以 3-0 战胜同城死敌。",
-    date: "2023年10月24日",
+    date: "2025年10月24日",
     author: "詹姆斯·史密斯",
     image: "https://picsum.photos/id/1055/600/400"
   },
@@ -112,7 +112,7 @@ export const NEWS: NewsItem[] = [
     id: 2,
     title: "新球场扩建计划公布",
     summary: "狮子竞技场的扩建项目已正式获得市议会批准。",
-    date: "2023年10月20日",
+    date: "2025年10月20日",
     author: "萨拉·康纳",
     image: "https://picsum.photos/id/1047/600/400"
   },
@@ -120,7 +120,7 @@ export const NEWS: NewsItem[] = [
     id: 3,
     title: "青训学院毕业季",
     summary: "三位潜力无限的新星正式晋升至一线队阵容。",
-    date: "2023年10月15日",
+    date: "2025年10月15日",
     author: "迈克·罗斯",
     image: "https://picsum.photos/id/1060/600/400"
   }
