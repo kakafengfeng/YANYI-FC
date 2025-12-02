@@ -17,7 +17,7 @@ const AboutSection: React.FC = () => {
               <div className="bg-white/10 p-4 rounded backdrop-blur-sm border-l-4 border-club-red">
                 <Trophy className="text-club-gold mb-2" size={32} />
                 <h4 className="font-bold text-2xl">5</h4>
-                <p className="text-xs uppercase tracking-wide text-gray-400">英超冠军</p>
+                <p className="text-xs uppercase tracking-wide text-gray-400">奉超冠军</p>
               </div>
               <div className="bg-white/10 p-4 rounded backdrop-blur-sm border-l-4 border-club-red">
                 <Users className="text-club-gold mb-2" size={32} />
@@ -43,7 +43,7 @@ const AboutSection: React.FC = () => {
              {[
                { year: '1892', title: '俱乐部成立', desc: '由当地工人创立。' },
                { year: '1955', title: '首冠荣耀', desc: '首次获得顶级联赛冠军。' },
-               { year: '2012', title: '欧洲之巅', desc: '戏剧性地赢得了欧冠冠军。' },
+               { year: '2012', title: '奉贤之巅', desc: '戏剧性地赢得了奉超冠军。' },
                { year: '2023', title: '新纪元', desc: '世界级青训学院正式启用。' },
              ].map((item, idx) => (
                <div key={idx} className="bg-white/5 p-6 rounded hover:bg-white/10 transition cursor-pointer group">
@@ -58,7 +58,7 @@ const AboutSection: React.FC = () => {
         {/* Map Location */}
         <div className="bg-white rounded-lg overflow-hidden shadow-2xl flex flex-col md:flex-row">
           <div className="p-8 md:w-1/3 text-club-navy">
-             <h3 className="text-2xl font-bold uppercase mb-4 flex items-center gap-2"><MapPin className="text-club-red"/> 狮子竞技场</h3>
+             <h3 className="text-2xl font-bold uppercase mb-4 flex items-center gap-2"><MapPin className="text-club-red"/> 塘外竞技场</h3>
              <p className="mb-4">123 Victory Lane, London, UK.</p>
              <p className="mb-4 text-sm text-gray-600">每个比赛日，与60,000名球迷一起捍卫我们的堡垒。可通过地铁、公交和火车轻松抵达。</p>
              <button className="bg-club-navy text-white px-6 py-2 uppercase font-bold text-sm hover:bg-club-red transition w-full">获取路线</button>
