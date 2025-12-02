@@ -127,9 +127,9 @@ export const NEWS: NewsItem[] = [
 ];
 
 export const MATCHES: Match[] = [
-  { id: 1, opponent: "奉城", date: "11月04日", time: "20:00", venue: "主场", price: "£45" },
-  { id: 2, opponent: "四团", date: "11月11日", time: "15:00", venue: "客场", price: "£55" },
-  { id: 3, opponent: "南桥", date: "11月25日", time: "17:30", venue: "主场", price: "£60" },
+  { id: 1, opponent: "奉城", date: "12月04日", time: "20:00", venue: "主场", price: "￥45" },
+  { id: 2, opponent: "四团", date: "12月11日", time: "15:00", venue: "客场", price: "￥55" },
+  { id: 3, opponent: "南桥", date: "12月25日", time: "17:30", venue: "主场", price: "￥60" },
 ];
 
 export const PRODUCTS: Product[] = [
